@@ -1,0 +1,96 @@
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  
+  a {
+    color:white;
+    text-decoration: none;
+   
+  }
+  
+  .btn {
+    padding: 10px 20px; 
+    margin: 0 5px; 
+    font-size: 0.99rem;
+    border-radius: 3px;
+    outline: none;
+    border: none;
+    color: #fff;
+    background-color: blue; 
+  }
+  
+  .btn:hover {
+    cursor: pointer; 
+  }
+  
+  
+  body {
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    background: linear-gradient(rgb(71, 60, 218), rgb(94, 233, 191));
+    font-family: sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    text-align: center;
+  }
+  
+  
+  .container {
+    width: 500px;
+    padding: 50px 20px; 
+    background-color: gold;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px 0 rgba(36, 34, 34, 0.2), 0 6px 20px 0 rgba(17, 16, 16, 0.9);
+       position: relative;
+      -webkit-animation-name: example; 
+      -webkit-animation-duration: 4s; 
+      -webkit-animation-iteration-count: 5; 
+      animation-name: example;
+      animation-duration: 2s;
+      animation-iteration-count: 2;
+  }
+  
+  
+  @-webkit-keyframes example {
+      0%   {background-color:red; left:200px; top:200px;}
+      25%  {background-color:yellow; left:200px; top:200px;}
+      50%  {background-color:blue; left:200px; top:200px;}
+      75%  {background-color:green; left:200px; top:200px;}
+      100% {background-color:red; left:200px; top:0px;}
+  }
+  
+  
+  @keyframes example {
+      0%   {background-color:red; left:0px; top:0px;}
+      25%  {background-color:yellow; left:200px; top:0px;}
+      50%  {background-color:blue; left:200px; top:200px;}
+      75%  {background-color:green; left:0px; top:200px;}
+      100% {background-color:red; left:0px; top:0px;}
+  
+  }
+    
+  h1 {
+    font-size: 1.1rem;
+    color:white;
+    margin-bottom: 20px;
+    text-decoration: underline;
+  }
+    
+  .joke-text {
+    font-size: 1.8rem;
+    margin-bottom: 30px;
+    font-family: monospace;
+  }
+ 
+    .new-joke-btn {
+    background-color: green;
+  }
+  
+    .tweet-btn {
+    background-color: #00ACEE;
+  }
